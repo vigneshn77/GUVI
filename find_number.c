@@ -3,13 +3,14 @@
 int main(void) {
 	int num;
 	num = 3;
+        prntf("INPUT : %d\n",num);
 	if(num != 0) {
 		if (num > 0)
-		printf("POSITIVE\n");
+		printf("OUTPUT: POSITIVE\n");
 		else
-		printf("NEGATIVE\n");
+		printf("OUTPUT: NEGATIVE\n");
 	}
 	else
-	printf("ZERO\n");
+	printf("OUTPUT: ZERO\n");
 	return 0;
 }
