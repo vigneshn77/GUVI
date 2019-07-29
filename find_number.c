@@ -3,7 +3,7 @@
 int main(void) {
 	int num;
 	num = 3;
-        prntf("INPUT : %d\n",num);
+        printf("INPUT : %d\n",num);
 	if(num != 0) {
 		if (num > 0)
 		printf("OUTPUT: POSITIVE\n");
